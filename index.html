@@ -1,1 +1,182 @@
-ohn
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jordan's Math Work Lite</title>
+  <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+<script src="particles.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #222;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 60px 20px 40px;
+      gap: 40px;
+    }
+
+    svg {
+      width: 350px;
+      height: auto;
+    }
+
+    .intro-text {
+      max-width: 400px;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .intro-text h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+    }
+
+    .intro-text p {
+      font-size: 1.2em;
+      color: #e0e0e0;
+      margin-bottom: 0;
+    }
+
+    .features-section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .features-section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .features-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 50px;
+    }
+
+    .feature-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 20px;
+      max-width: 280px;
+      color: #eee;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      text-align: left;
+      width:280px;
+    }
+
+    .feature-card h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 1.3em;
+    }
+
+    .download-section {
+      text-align: center;
+      padding: 40px 20px 80px;
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 14px 28px;
+      font-size: 1.1em;
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: transform 0.2s ease;
+    }
+
+    .download-btn:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <!-- Intro Section -->
+  <div class="container">
+    <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+      <rect x="150" y="100" width="500" height="350" rx="20" ry="20" fill="#1f1f1f" stroke="#444" stroke-width="5"/>
+      <clipPath id="screen-clip">
+        <rect x="170" y="120" width="460" height="310" rx="10" ry="10"/>
+      </clipPath>
+      <image 
+        x="170" y="120" width="460" height="310"
+        xlink:href="lite.png" 
+        clip-path="url(#screen-clip)" 
+        preserveAspectRatio="xMidYMid slice"
+      />
+      <rect x="360" y="460" width="80" height="30" fill="#2c2c2c"/>
+      <rect x="330" y="490" width="140" height="20" rx="10" ry="10" fill="#444"/>
+    </svg>
+
+    <div class="intro-text">
+      <h1>Freedom; At your fingertips.</h1>
+      <p>Jordan's Math Work Lite is the go-to unblocked gaming website for curing boredom at school!</p>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <section class="features-section">
+    <h2>Features:</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3><i class="fa-solid fa-unlock"></i> Unblocked Anywhere</h3>
+        <p>Access our games even in the most locked-down school networks.</p>
+      </div>
+      <div class="feature-card">
+        <h3><i class="fa-solid fa-wind"></i> Lightweight & Fast</h3>
+        <p>Loads instantly with minimal lag so you can start playing right away.</p>
+      </div>
+      <div class="feature-card">
+        <h3><i class="fa-solid fa-hammer"></i> Built-in Browser</h3>
+        <p>The browser runs from iframes of unblocked link proxies.</p>
+      </div>
+      <div class="feature-card">
+        <h3><i class="fa-solid fa-gear"></i> Customization</h3>
+        <p>Customize the site the way you love it.</p>
+      </div>
+      <div class="feature-card">
+        <h3><i class="fa-solid fa-rocket-launch"></i> Minimalistic UI</h3>
+        <p>Simple and not too complicated.</p>
+      </div>
+      <div class="feature-card">
+        <h3><i class="fa-solid fa-code"></i> Exploits</h3>
+        <p>Need more unblocking tools? We have an exploit corner.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="download-section">
+    <h1>Download lite today!</h1>
+    <a class="download-btn" href="version1.html" download><i class="fa-solid fa-download"></i> Download JMW Lite</a>
+  </section>
+  <footer>
+    <p href="//dsc.gg/gnetwork" style="cursor:pointer;">&copy; Galactic 2025 All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
